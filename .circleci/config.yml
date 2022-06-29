@@ -37,7 +37,8 @@ jobs:
       # And finally run the release build
       - run:
           name: Assemble release build
-          command :
+          command : |
+          
           ./gradlew assembleRelease
 
 # Invoke jobs via workflows
